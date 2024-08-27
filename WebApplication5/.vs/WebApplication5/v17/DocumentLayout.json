@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AAD79-F8B6-4A4E-8F29-F6C66AC2A14D}|WebApplication5\\WebApplication5.csproj|c:\\users\\reyne\\source\\repos\\webapplication5\\webapplication5\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1AAD79-F8B6-4A4E-8F29-F6C66AC2A14D}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1AAD79-F8B6-4A4E-8F29-F6C66AC2A14D}|WebApplication5\\WebApplication5.csproj|c:\\users\\reyne\\source\\repos\\webapplication5\\webapplication5\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F1AAD79-F8B6-4A4E-8F29-F6C66AC2A14D}|WebApplication5\\WebApplication5.csproj|solutionrelative:webapplication5\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\WebApplication5\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication5\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\WebApplication5\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication5\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwJ8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:07:18.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\WebApplication5\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication5\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\WebApplication5\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication5\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T13:07:17.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

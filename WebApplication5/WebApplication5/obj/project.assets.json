@@ -1,0 +1,217 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CertiPay.ACH/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net451/CertiPay.ACH.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net451/CertiPay.ACH.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "djurslands-bank-billing-system.Billing/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Billing.exe": {}
+        },
+        "runtime": {
+          "lib/net45/Billing.exe": {}
+        }
+      },
+      "Epsitec.Net.Json.Serialization/7.9.4.2421": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Net.Json.Serialization.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Net.Json.Serialization.dll": {}
+        }
+      },
+      "Epsitec.William.Camt/4.5.1.2421": {
+        "type": "package",
+        "dependencies": {
+          "Epsitec.Net.Json.Serialization": "7.9.4.2421"
+        },
+        "compile": {
+          "lib/net6.0/William.Camt.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/William.Camt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CertiPay.ACH/1.0.3": {
+      "sha512": "uP9tm8RYZjfR64OtRpqKopsebe6ikTyXVaaWl+k8hmDbXFROX6lSkQMMzV51V/MJ17+y0RQkb9y2/Fv6dOymyg==",
+      "type": "package",
+      "path": "certipay.ach/1.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "certipay.ach.1.0.3.nupkg.sha512",
+        "certipay.ach.nuspec",
+        "lib/net451/CertiPay.ACH.XML",
+        "lib/net451/CertiPay.ACH.dll",
+        "lib/net451/CertiPay.ACH.pdb",
+        "tools/LICENSE.md",
+        "tools/README.md"
+      ]
+    },
+    "djurslands-bank-billing-system.Billing/1.0.2": {
+      "sha512": "8dPFKvY2dI1stgFtQiVjV+GlOsZTb3C4pGSZNv3qHcLlpecHrk8q60KYeDQX0BBn8avh0Q23e5EYnJtwjaF4lA==",
+      "type": "package",
+      "path": "djurslands-bank-billing-system.billing/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "djurslands-bank-billing-system.billing.1.0.2.nupkg.sha512",
+        "djurslands-bank-billing-system.billing.nuspec",
+        "lib/net45/Billing.exe"
+      ]
+    },
+    "Epsitec.Net.Json.Serialization/7.9.4.2421": {
+      "sha512": "0TwmztdmJIVQdpC9O/JIUW7PylwFe9yj45sMkYVRYEviXzy0zxOZAeDV0rz+SrU+iKVZYf53dhbbF7iZ2pzOEA==",
+      "type": "package",
+      "path": "epsitec.net.json.serialization/7.9.4.2421",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "epsitec.net.json.serialization.7.9.4.2421.nupkg.sha512",
+        "epsitec.net.json.serialization.nuspec",
+        "lib/net6.0/Net.Json.Serialization.dll"
+      ]
+    },
+    "Epsitec.William.Camt/4.5.1.2421": {
+      "sha512": "AS9+y1PSkzfvIfZqxl4n/V9UkHeaIaxQSDoIwV3raeICNwJ6FNufxeBV5DIF6Bha6z8T8l0ytOs8zxLY2sBCEQ==",
+      "type": "package",
+      "path": "epsitec.william.camt/4.5.1.2421",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "epsitec.william.camt.4.5.1.2421.nupkg.sha512",
+        "epsitec.william.camt.nuspec",
+        "lib/net6.0/William.Camt.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CertiPay.ACH >= 1.0.3",
+      "Epsitec.William.Camt >= 4.5.1.2421",
+      "djurslands-bank-billing-system.Billing >= 1.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\reyne\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+      "projectName": "WebApplication5",
+      "projectPath": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+      "packagesPath": "C:\\Users\\reyne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\reyne\\source\\repos\\WebApplication5\\WebApplication5\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\reyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "CertiPay.ACH": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
+          "Epsitec.William.Camt": {
+            "target": "Package",
+            "version": "[4.5.1.2421, )"
+          },
+          "djurslands-bank-billing-system.Billing": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'CertiPay.ACH 1.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "CertiPay.ACH",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'djurslands-bank-billing-system.Billing 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "djurslands-bank-billing-system.Billing",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

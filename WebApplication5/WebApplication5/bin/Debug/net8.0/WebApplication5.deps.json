@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WebApplication5/1.0.0": {
+        "dependencies": {
+          "CertiPay.ACH": "1.0.3",
+          "Epsitec.William.Camt": "4.5.1.2421",
+          "djurslands-bank-billing-system.Billing": "1.0.2"
+        },
+        "runtime": {
+          "WebApplication5.dll": {}
+        }
+      },
+      "CertiPay.ACH/1.0.3": {
+        "runtime": {
+          "lib/net451/CertiPay.ACH.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "djurslands-bank-billing-system.Billing/1.0.2": {
+        "runtime": {
+          "lib/net45/Billing.exe": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Epsitec.Net.Json.Serialization/7.9.4.2421": {
+        "runtime": {
+          "lib/net6.0/Net.Json.Serialization.dll": {
+            "assemblyVersion": "7.9.3.2418",
+            "fileVersion": "7.9.3.2418"
+          }
+        }
+      },
+      "Epsitec.William.Camt/4.5.1.2421": {
+        "dependencies": {
+          "Epsitec.Net.Json.Serialization": "7.9.4.2421"
+        },
+        "runtime": {
+          "lib/net6.0/William.Camt.dll": {
+            "assemblyVersion": "4.5.1.2421",
+            "fileVersion": "4.5.1.2421"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebApplication5/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CertiPay.ACH/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uP9tm8RYZjfR64OtRpqKopsebe6ikTyXVaaWl+k8hmDbXFROX6lSkQMMzV51V/MJ17+y0RQkb9y2/Fv6dOymyg==",
+      "path": "certipay.ach/1.0.3",
+      "hashPath": "certipay.ach.1.0.3.nupkg.sha512"
+    },
+    "djurslands-bank-billing-system.Billing/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8dPFKvY2dI1stgFtQiVjV+GlOsZTb3C4pGSZNv3qHcLlpecHrk8q60KYeDQX0BBn8avh0Q23e5EYnJtwjaF4lA==",
+      "path": "djurslands-bank-billing-system.billing/1.0.2",
+      "hashPath": "djurslands-bank-billing-system.billing.1.0.2.nupkg.sha512"
+    },
+    "Epsitec.Net.Json.Serialization/7.9.4.2421": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0TwmztdmJIVQdpC9O/JIUW7PylwFe9yj45sMkYVRYEviXzy0zxOZAeDV0rz+SrU+iKVZYf53dhbbF7iZ2pzOEA==",
+      "path": "epsitec.net.json.serialization/7.9.4.2421",
+      "hashPath": "epsitec.net.json.serialization.7.9.4.2421.nupkg.sha512"
+    },
+    "Epsitec.William.Camt/4.5.1.2421": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AS9+y1PSkzfvIfZqxl4n/V9UkHeaIaxQSDoIwV3raeICNwJ6FNufxeBV5DIF6Bha6z8T8l0ytOs8zxLY2sBCEQ==",
+      "path": "epsitec.william.camt/4.5.1.2421",
+      "hashPath": "epsitec.william.camt.4.5.1.2421.nupkg.sha512"
+    }
+  }
+}
